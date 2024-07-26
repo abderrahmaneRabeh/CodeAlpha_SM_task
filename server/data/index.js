@@ -14,8 +14,8 @@ const userIds = [
 export const users = [
   {
     _id: userIds[0],
-    FirstName: "test",
-    LastName: "me",
+    firstName: "test",
+    lastName: "me",
     email: "aaaaaaa@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p11.jpeg",
@@ -30,8 +30,8 @@ export const users = [
   },
   {
     _id: userIds[1],
-    FirstName: "Steve",
-    LastName: "Ralph",
+    firstName: "Steve",
+    lastName: "Ralph",
     email: "thataaa@gmail.com",
     password: "$!FEAS@!O)_IDJda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p3.jpeg",
@@ -46,8 +46,8 @@ export const users = [
   },
   {
     _id: userIds[2],
-    FirstName: "Some",
-    LastName: "Guy",
+    firstName: "Some",
+    lastName: "Guy",
     email: "someguy@gmail.com",
     password: "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     picturePath: "p4.jpeg",
@@ -62,8 +62,8 @@ export const users = [
   },
   {
     _id: userIds[3],
-    FirstName: "Whatcha",
-    LastName: "Doing",
+    firstName: "Whatcha",
+    lastName: "Doing",
     email: "whatchadoing@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p6.jpeg",
@@ -78,8 +78,8 @@ export const users = [
   },
   {
     _id: userIds[4],
-    FirstName: "Jane",
-    LastName: "Doe",
+    firstName: "Jane",
+    lastName: "Doe",
     email: "janedoe@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p5.jpeg",
@@ -94,8 +94,8 @@ export const users = [
   },
   {
     _id: userIds[5],
-    FirstName: "Harvey",
-    LastName: "Dunn",
+    firstName: "Harvey",
+    lastName: "Dunn",
     email: "harveydunn@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p7.jpeg",
@@ -110,8 +110,8 @@ export const users = [
   },
   {
     _id: userIds[6],
-    FirstName: "Carly",
-    LastName: "Vowel",
+    firstName: "Carly",
+    lastName: "Vowel",
     email: "carlyvowel@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p8.jpeg",
@@ -126,8 +126,8 @@ export const users = [
   },
   {
     _id: userIds[7],
-    FirstName: "Jessica",
-    LastName: "Dunn",
+    firstName: "Jessica",
+    lastName: "Dunn",
     email: "jessicadunn@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p9.jpeg",

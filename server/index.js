@@ -15,10 +15,6 @@ import postRouter from "./routes/posts.js";
 import { createPost } from "./controllers/post.js";
 import { verfyToken } from "./middleware/auth.js";
 
-import User from "./models/User.js";
-import Post from "./models/Post.js";
-import { users, posts } from "./data/index.js";
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 dotenv.config();
@@ -62,10 +58,7 @@ mongoose
     app.listen(process.env.PORT || 3001, () =>
       console.log(`Server running on port: ${process.env.PORT || 3001}`)
     );
-
-    // ADD DATA ONE TIME
-    // User.insertMany(users);
-    // Post.insertMany(posts);
+    // ADD DATA ONE TIME 'check Readme.md'
   })
   .catch((error) => {
     console.log(error.message);
