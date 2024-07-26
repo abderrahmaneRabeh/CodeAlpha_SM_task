@@ -10,16 +10,7 @@ import {
   useTheme,
   useMediaQuery,
 } from "@mui/material";
-import {
-  Search,
-  Message,
-  DarkMode,
-  LightMode,
-  Notifications,
-  Help,
-  Menu,
-  Close,
-} from "@mui/icons-material";
+import { DarkMode, LightMode, Menu, Close } from "@mui/icons-material";
 
 import { useDispatch, useSelector } from "react-redux";
 import { setMode, setLogout } from "../../state";
@@ -58,19 +49,6 @@ export default function Navbar() {
         >
           CodeAlpha-Task
         </Typography>
-        {isNonMobileScreens && (
-          <FlexBetween
-            backgroundColor={neutralLight}
-            borderRadius="9px"
-            gap="3rem"
-            padding="0.1rem 1.5rem"
-          >
-            <InputBase placeholder="Search..." />
-            <IconButton>
-              <Search />
-            </IconButton>
-          </FlexBetween>
-        )}
       </FlexBetween>
       {/* DESKTOP NAV */}
       {isNonMobileScreens ? (
@@ -82,9 +60,7 @@ export default function Navbar() {
               <LightMode sx={{ color: dark, fontSize: "25px" }} />
             )}
           </IconButton>
-          <Message sx={{ fontSize: "25px" }} />
-          <Notifications sx={{ fontSize: "25px" }} />
-          <Help sx={{ fontSize: "25px" }} />
+
           <FormControl variant="standard" value={fullName}>
             <Select
               value={fullName}
@@ -157,9 +133,7 @@ export default function Navbar() {
                 <LightMode sx={{ color: dark, fontSize: "25px" }} />
               )}
             </IconButton>
-            <Message sx={{ fontSize: "25px" }} />
-            <Notifications sx={{ fontSize: "25px" }} />
-            <Help sx={{ fontSize: "25px" }} />
+
             <FormControl variant="standard" value={fullName}>
               <Select
                 value={fullName}
