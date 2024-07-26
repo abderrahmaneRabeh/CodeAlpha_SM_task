@@ -16,7 +16,7 @@ export default function LoginPage() {
           fontSize="clamp(1rem, 2rem, 2.25rem)"
           color="primary"
         >
-          CodeAlpha Task2
+          CodeAlpha-Task
         </Typography>
       </Box>
       <Box
@@ -27,7 +27,7 @@ export default function LoginPage() {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight={"500"} variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to CodeAlpha Task2
+          Welcome to CodeAlpha-Task
         </Typography>
         <Form />
       </Box>

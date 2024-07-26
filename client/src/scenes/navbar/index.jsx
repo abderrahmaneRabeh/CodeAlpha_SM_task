@@ -56,7 +56,7 @@ export default function Navbar() {
             },
           }}
         >
-          CodeAlpha Task2
+          CodeAlpha-Task
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
